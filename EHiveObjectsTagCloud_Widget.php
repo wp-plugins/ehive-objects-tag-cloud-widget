@@ -43,7 +43,7 @@ class eHiveObjectsTagCloud_Widget extends WP_Widget {
 	function widget($args, $instance) {
 
 		if (isset($instance['widget_css_enabled'])) {
-			wp_register_style($handle = 'eHiveObjectsTagCloudWidgetCSS', $src = plugins_url('eHiveObjectsTagCloud_Widget.css', '/eHiveObjectsTagCloud_Widget/css/eHiveObjectsTagCloud_Widget.css'), $deps = array(), $ver = '0.0.1', $media = 'all');
+			wp_register_style($handle = 'eHiveObjectsTagCloudWidgetCSS', $src = plugins_url('eHiveObjectsTagCloud_Widget.css', '/ehive-objects-tag-cloud-widget/css/eHiveObjectsTagCloud_Widget.css'), $deps = array(), $ver = '0.0.1', $media = 'all');
 			wp_enqueue_style( 'eHiveObjectsTagCloudWidgetCSS');
 		}
 		
